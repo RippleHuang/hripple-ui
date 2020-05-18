@@ -10,7 +10,7 @@ npm i hripple-ui -S
 
 ``` js
 //main.js
-import 'hripple-ui/dist/hripple-ui.min.css'
+import 'hripple-ui/dist/hripple-ui.css'
 import HrippleUi from 'hripple-ui'
 Vue.use(HrippleUi)
 ```
