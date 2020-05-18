@@ -1,24 +1,16 @@
 # hripple-ui
 
-## Project setup
-```
-yarn install
+## 安装
+
+``` bash
+npm i hripple-ui -S
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 引入
 
-### Compiles and minifies for production
+``` js
+//main.js
+import 'hripple-ui/dist/hripple-ui.min.css'
+import HrippleUi from 'hripple-ui'
+Vue.use(HrippleUi)
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
